@@ -1,11 +1,7 @@
 <template>
   <div class="app">
-    <div>
-      <Navbar />
-    </div>
-    <div>
-      <router-view />
-    </div>
+    <Navbar />
+    <router-view />
   </div>
 </template>
 
@@ -22,7 +18,7 @@ export default {
 }
 </script>
 
-<style  lang="scss">
+<style lang="scss">
 :root {
   --sidebar-bg-color: rgb(185, 162, 18);
   --bg-color: rgb(224, 224, 224);

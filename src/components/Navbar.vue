@@ -56,12 +56,6 @@ nav {
   justify-content: space-between;
   z-index: 999;
 
-  // .logo {
-  // position: relative;
-  // background-color: rgb(185, 162, 18);
-  // margin: 0;
-  // padding: 0;
-  // background: var(--sidebar-bg-color);
   img {
     margin: 1.1em;
     width: 4em;
@@ -69,19 +63,16 @@ nav {
     object-fit: cover;
     background: var(--sidebar-bg-color);
   }
-  // }
 
   .navigation {
     display: flex;
     position: relative;
     margin-top: 2em;
-    // float: right;
     background: var(--sidebar-bg-color);
 
     ul {
       display: flex;
       list-style-type: none;
-      //   margin: 1.2;
       padding: 0;
       background: var(--sidebar-bg-color);
 
