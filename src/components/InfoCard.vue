@@ -8,12 +8,12 @@
 </template>
 
 <script>
+//TODO: refatorar o card e criar um componente para cada informação da home
 export default {
   props: ['width', 'height', 'margin']
 
 }
 </script>
-
 <style scoped lang="scss">
 .info-card {
   display: flex;
@@ -22,6 +22,7 @@ export default {
   flex-wrap: wrap;
   flex-flow: row;
   align-items: center;
+  text-align: center;
   align-content: center;
   justify-content: space-between;
 }

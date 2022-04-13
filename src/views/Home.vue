@@ -1,8 +1,11 @@
 <template>
+  <!-- TODO Refatorar nome das classes -->
   <div class="main-card">
     <div class="item-card item-1">
       <InfoCard>
-        <div>asod uiaoskdhakulsjhd akjshdkasjhdaskjashdkjasod uiaoskdhakulsjhd akjshdkasjhdaskjashdkjasod uiaoskdhakulsjhd akjshdkasjhdaskjashdkjasod uiaoskdhakulsjhd akjshdkasjhdaskjashdkjasod uiaoskdhakulsjhd akjshdkasjhdaskjashdkjasod uiaoskdhakulsjhd akjshdkasjhdaskjashdkjasod uiaoskdhakulsjhd akjshdkasjhdaskjashdkjasod uiaoskdhakulsjhd akjshdkasjhdaskjashdkjasod uiaoskdhakulsjhd akjshdkasjhdaskjashdkjasod uiaoskdhakulsjhd akjshdkasjhdaskjashdkjasod uiaoskdhakulsjhd akjshdkasjhdaskjashdkjasod uiaoskdhakulsjhd akjshdkasjhdaskjashdkj</div>
+        <div>
+          <h1>Cidadania já</h1>
+        </div>
       </InfoCard>
     </div>
 
@@ -55,7 +58,7 @@ export default {
   grid-gap: 1.2em;
 
   .item-card {
-    border: 4px solid #ff652f;
+    border: 4px solid #000000;
     // padding: 20px;
   }
   .item-1 {
