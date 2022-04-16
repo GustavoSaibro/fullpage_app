@@ -1,8 +1,11 @@
 <template>
   <div class="politicos">
-    <div class="titulo">
+    <!-- <div class="titulo">
       <h1>Politicos no exercicio</h1>
-    </div>
+    </div> -->
+    <Titulo>
+      <h1>Pagina de Politicos</h1>
+    </Titulo>
     <Busca />
 
     <div class="grid-container">
@@ -22,11 +25,13 @@
 <script>
 import Politico from "@/components/politicos/Politico.vue"
 import Busca from "@/components/common/Busca.vue"
+import Titulo from "@/components/common/Titulo.vue"
 export default {
   name: "Politicos",
   components: {
     Politico,
-    Busca
+    Busca,
+    Titulo,
   }
 }
 </script>

@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-
     <div class="foto-candidato">
       <img
         src="@/assets/candidato.jpg"
