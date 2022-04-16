@@ -4,31 +4,29 @@
       <h1>Pagina de Noticias</h1>
     </Titulo>
     <Busca />
-
     <div class="grid-container">
-      <Noticia />
-      <Noticia />
-      <Noticia />
-      <Noticia />
-      <Noticia />
-      <Noticia />
-      <Noticia />
+      <NoticiaCard />
+      <NoticiaCard />
+      <NoticiaCard />
+      <NoticiaCard />
+      <NoticiaCard />
+      <NoticiaCard />
+      <NoticiaCard />
     </div>
-
   </div>
 </template>
 
 <script>
 import Busca from "@/components/common/Busca.vue"
 import Titulo from "@/components/common/Titulo.vue"
-import Noticia from "@/components/noticias/Noticia.vue"
+import NoticiaCard from "@/components/noticias/NoticiaCard.vue"
 
 export default {
   name: "Noticias",
   components: {
     Busca,
     Titulo,
-    Noticia
+    NoticiaCard
   }
 }
 </script>

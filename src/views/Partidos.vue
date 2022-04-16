@@ -6,15 +6,15 @@
 
     <Busca />
     <div class="grid-container">
-      <Partido class="item-1" />
-      <Partido class="item-2" />
-      <Partido class="item-3" />
-      <Partido class="item-4" />
-      <Partido class="item-5" />
-      <Partido class="item-6" />
-      <Partido class="item-7" />
-      <Partido class="item-8" />
-      <Partido class="item-9" />
+      <PartidoCard class="item-1" />
+      <PartidoCard class="item-2" />
+      <PartidoCard class="item-3" />
+      <PartidoCard class="item-4" />
+      <PartidoCard class="item-5" />
+      <PartidoCard class="item-6" />
+      <PartidoCard class="item-7" />
+      <PartidoCard class="item-8" />
+      <PartidoCard class="item-9" />
     </div>
 
   </div>
@@ -24,13 +24,13 @@
 <script>
 import Busca from "@/components/common/Busca.vue"
 import Titulo from "@/components/common/Titulo.vue"
-import Partido from "@/components/partidos/Partido.vue"
+import PartidoCard from "@/components/partidos/PartidoCard.vue"
 export default {
   name: "Partidos",
   components: {
     Busca,
     Titulo,
-    Partido
+    PartidoCard
   }
 }
 </script>

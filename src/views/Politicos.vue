@@ -9,27 +9,27 @@
     <Busca />
 
     <div class="grid-container">
-      <Politico class="item-1" />
-      <Politico class="item-2" />
-      <Politico class="item-3" />
-      <Politico class="item-4" />
-      <Politico class="item-5" />
-      <Politico class="item-6" />
-      <Politico class="item-7" />
-      <Politico class="item-8" />
-      <Politico class="item-9" />
+      <PoliticoCard class="item-1" />
+      <PoliticoCard class="item-2" />
+      <PoliticoCard class="item-3" />
+      <PoliticoCard class="item-4" />
+      <PoliticoCard class="item-5" />
+      <PoliticoCard class="item-6" />
+      <PoliticoCard class="item-7" />
+      <PoliticoCard class="item-8" />
+      <PoliticoCard class="item-9" />
     </div>
   </div>
 </template>
 
 <script>
-import Politico from "@/components/politicos/Politico.vue"
+import PoliticoCard from "@/components/politicos/PoliticoCard.vue"
 import Busca from "@/components/common/Busca.vue"
 import Titulo from "@/components/common/Titulo.vue"
 export default {
   name: "Politicos",
   components: {
-    Politico,
+    PoliticoCard,
     Busca,
     Titulo,
   }
