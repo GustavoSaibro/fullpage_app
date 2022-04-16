@@ -16,7 +16,8 @@
     </div>
     <div class="dados-cand">
       <div class="nome-cand">
-        Nome de Candidatura</div>
+        Nome de Candidatura
+      </div>
       <div class="uf-cand">
         <img
           src="@/assets/logo.png"
@@ -24,7 +25,12 @@
         >
       </div>
     </div>
-    <div class="contato">nome@gmail.com</div>
+
+    <div class="contato">
+      <div class="email">nome@email.com</div>
+      <div class="twitter">@twitter</div>
+      <!-- <div class="tel">99 991897456</div> -->
+    </div>
 
     <div class="info">
       <div class="projetos">
@@ -100,10 +106,12 @@ export default {
   .dados-cand {
     box-sizing: border-box;
     flex-direction: row;
-    border: rgba(165, 157, 157, 0.5) solid 1px;
     height: 8em;
+    border-bottom: rgba(165, 157, 157, 0.5) solid 1px;
     .nome-cand {
-      margin: 0.2em;
+      box-sizing: border-box;
+      // margin: 0.2em;
+      padding: 0.8em;
       word-break: break-word;
       white-space: pre-wrap;
       -moz-white-space: pre-wrap;
@@ -111,10 +119,42 @@ export default {
     }
     img {
       position: absolute;
-      top: 0.5em;
-      left: 50%;
+      top: 1.1em;
+      left: 40%;
       width: 1.5em;
       height: 1.5em;
+    }
+  }
+  .contato {
+    // margin: 1.1em;
+    padding: 0.8em;
+    border-bottom: rgba(165, 157, 157, 0.5) solid 1px;
+    box-sizing: border-box;
+    flex-direction: row;
+    width: 100%;
+    height: 5em;
+  }
+
+  .info {
+    display: grid;
+    box-sizing: border-box;
+    padding: 0.8em;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+
+    .gastos {
+      padding: 0.7em;
+      margin-left: 0.2em;
+      box-sizing: border-box;
+      border: rgba(165, 157, 157, 0.5) solid 1px;
+    }
+    .projetos {
+      padding: 0.7em;
+      margin-right: 0.2em;
+      box-sizing: border-box;
+      border: rgba(165, 157, 157, 0.5) solid 1px;
     }
   }
 }

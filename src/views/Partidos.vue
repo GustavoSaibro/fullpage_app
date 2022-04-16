@@ -1,10 +1,20 @@
 <template>
-  <h1>Pagina de partidos</h1>
+  <div class="partidos">
+    <div class="titulo">
+      <h1>Pagina de partidos</h1>
+    </div>
+    <Busca />
+  </div>
+
 </template>
 
 <script>
+import Busca from "@/components/common/Busca.vue"
 export default {
-  name: "Partidos"
+  name: "Partidos",
+  components: {
+    Busca
+  }
 }
 </script>
 
