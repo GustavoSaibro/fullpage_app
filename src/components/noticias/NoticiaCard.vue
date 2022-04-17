@@ -17,18 +17,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.container {
-  border: 2px solid #000000;
-
-  .titulo-noticia {
-    text-align: center;
-    margin: 0;
-    padding-top: 1.2em;
-  }
-
-  .corpo-noticia {
-    box-sizing: border-box;
-    padding: 0.5em 1.2em;
-  }
-}
+@import "@/styles/noticias/noticiaCard.scss";
 </style>
